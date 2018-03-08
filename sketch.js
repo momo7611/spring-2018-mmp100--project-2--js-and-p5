@@ -43,6 +43,10 @@ line(71,54,0,96);
 line(323,362,320,368);
 fill('red')
 ellipse(260,223,25,25);
+strokeWeight('.5');
+fill('white');
+strokeWeight('1')
+triangle(257,220,261,218,254,217);
 line(174,110,139,222);
 line(157,252,247,369);
 line(262,363,231,325);
