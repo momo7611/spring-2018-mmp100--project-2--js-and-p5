@@ -1,3 +1,18 @@
+window.onload = function() {
+  let body = document.querySelector ('body'),
+  h1 = document.createElement('h1'),
+  x = document.createTextNode ('Bear'),
+  h2 = document.createElement('h2'),
+  y = document.createTextNode ('Vincent Bustamante');
+
+
+  body.appendChild(h1);
+  h1.appendChild(x);
+  body.appendChild(h2);
+  h2.appendChild(y);
+};
+
+
 const CANVAS_WIDTH = 470
 const CANVAS_HEIGHT = 370
 
@@ -31,9 +46,3 @@ line(262,363,231,325);
 line(231,325, 262,354);
 
 }
-
-let h2 = document.createTextNode('Vincent Bustamante');
-let h1 = document.createTextNide('Bear');
-
-h1.appendChild(body);
-h2.appendChild(body);
