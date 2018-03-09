@@ -41,3 +41,5 @@ function draw () {
 
     fill('red');
     ellipse(1.430, 0.736, 1.681, 0.780)
+
+}
