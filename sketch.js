@@ -12,35 +12,35 @@ function draw() {
 
     line(90,165,147,94)
     stroke('pink')
-    fill('#FA8072')
+    fill('pink')
 
-    arc(195,102,100,190,185,30);
-
-    //line(243,125,271,364)
+    arc(191,112,110,190,125,50);
 
     line(159,161,220,145)
 
-    //line(222,145,215,368)
-
-    fill('white')
+    fill('yellow')
     ellipse(196,87,20,20);
 
     fill('black')
     ellipse(196,87,10,10);
 
-    triangle(110,275,139,200,95,160)
+    triangle(82,315,144,205,88,169)
 
     fill('pink')
     beginShape();
     vertex(220,148)
-    vertex(210,366)
-    vertex(266,368)
-    vertex(270,140)
+    vertex(220,376)
+    vertex(276,368)
+    vertex(240,140)
     endShape();
+
+    triangle(195,100,158,144,240,175)
 
     fill('white')
     angleMode(DEGREES);
     rotate(35);
-    rect(170,20,58,65)
+    rect(169,8,67,77)
+    noStroke()
+    rect(203,-33,15,75)
 
   }
