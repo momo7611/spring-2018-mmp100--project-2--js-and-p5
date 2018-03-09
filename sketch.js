@@ -1,13 +1,69 @@
-const CANVAS_WIDTH = 470;
-const CANVAS_HEIGHT = 370;
+const CANVAS_WIDTH = 469;
+const CANVAS_HEIGHT = 365;
 
-function setup() {
-    createCanvas(CANVAS_WIDTH, CANVAS_HEIGHT);
-    background(200);
+function setup(){
+  createCanvas(CANVAS_WIDTH,CANVAS_HEIGHT);
+  background(200);
 }
 
-function draw() {
-    point(CANVAS_WIDTH / 2, CANVAS_HEIGHT / 2);
-    line(0, 0, CANVAS_WIDTH, CANVAS_HEIGHT);
-    line(0, CANVAS_HEIGHT, CANVAS_WIDTH, 0);
-}
+function draw(){
+
+  line(18,0,18,52);
+  line(18,52,30,94);
+  line(30,94,34,131);
+  line(34,131,74,207);
+  line(74,207,93,263);
+  line(93,263,120,317);
+  line(120,317,109,365);
+  line(126,0,181,76);
+  line(181,76,195,76);
+  line(195,76,208,78);
+  line(208,78,230,72);
+  line(230,72,253,72);
+  line(253,72,286,78);
+  line(286,78,304,64);
+  line(304,64,328,31);
+  line(328,31,357,0);
+  line(456,0,452,40);
+  line(452,40,443,72);
+  line(443,72,433,102);
+  line(433,102,430,119);
+  line(430,119,430,138);
+  line(430,138,425,148);
+  line(425,148,413,161);
+  line(413,161,410,182);
+  line(410,182,397,198);
+  line(397,198,388,211);
+  line(388,211,377,244);
+  line(377,244,367,274);
+  line(367,274,359,294);
+  line(359,294,357,337);
+  line(357,337,362,365);
+
+
+fill('yellow');
+  ellipse(162,187,66,60);
+  ellipse(306,190,66,60);
+
+fill('black')
+  ellipse(162,187,20,40);
+  ellipse(306,190,20,40);
+
+fill('white')
+  ellipse(163,180,10,20);
+  ellipse(307,182,10,20);
+
+fill('pink')
+  triangle(202,254,256,256,230,294);
+
+  line(284,268,403,250);
+  line(285,286,410,298);
+  line(277,296,390,340);
+  line(169,268,48,250);
+  line(161,286,40,301);
+  line(167,300,45,340);
+  line(316,101,381,0);
+  line(155,98,105,0);
+
+
+};
